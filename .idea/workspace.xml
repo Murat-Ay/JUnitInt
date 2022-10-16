@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55e01de-707b-48f6-9da2-7150c84caf0c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ders05_notations/C02_Before_After.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ders_06_junit/C02_Notasyonlar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ders_06_junit/C03_CheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ders_06_junit/C04_CheckBoxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ders_06_junit/C05_RadioButtons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ders_06_junit/C06_RadioButtonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ders_06_junit/C07_Assertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ders_06_junit/C08_BestBuyAssertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ders_06_junit/C09_YoutubeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,74 +34,109 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FxMU5PlgE552XgzbTQk8MF5Itw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.C02_Before_After">
-    <configuration name="C01_JunitIlkTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.C09_YoutubeTest">
+    <configuration name="C07_Assertions.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitInt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ders05_notations.*" />
+          <option name="PATTERN" value="ders_06_junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ders05_notations" />
-      <option name="MAIN_CLASS_NAME" value="ders05_notations.C01_JunitIlkTest" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="ders_06_junit" />
+      <option name="MAIN_CLASS_NAME" value="ders_06_junit.C07_Assertions" />
+      <option name="METHOD_NAME" value="test03" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_Before_After" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C07_Assertions.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitInt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ders05_notations.*" />
+          <option name="PATTERN" value="ders_06_junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ders05_notations" />
-      <option name="MAIN_CLASS_NAME" value="ders05_notations.C02_Before_After" />
+      <option name="PACKAGE_NAME" value="ders_06_junit" />
+      <option name="MAIN_CLASS_NAME" value="ders_06_junit.C07_Assertions" />
+      <option name="METHOD_NAME" value="test04" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C08_BestBuyAssertions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitInt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ders_06_junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ders_06_junit" />
+      <option name="MAIN_CLASS_NAME" value="ders_06_junit.C08_BestBuyAssertions" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_Before_After.amazonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C08_BestBuyAssertions.urlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitInt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ders05_notations.*" />
+          <option name="PATTERN" value="ders_06_junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ders05_notations" />
-      <option name="MAIN_CLASS_NAME" value="ders05_notations.C02_Before_After" />
-      <option name="METHOD_NAME" value="amazonTest" />
+      <option name="PACKAGE_NAME" value="ders_06_junit" />
+      <option name="MAIN_CLASS_NAME" value="ders_06_junit.C08_BestBuyAssertions" />
+      <option name="METHOD_NAME" value="urlTest" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C09_YoutubeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitInt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ders_06_junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ders_06_junit" />
+      <option name="MAIN_CLASS_NAME" value="ders_06_junit.C09_YoutubeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C02_Before_After" />
-        <item itemvalue="JUnit.C02_Before_After.amazonTest" />
-        <item itemvalue="JUnit.C01_JunitIlkTest.test01" />
+        <item itemvalue="JUnit.C09_YoutubeTest" />
+        <item itemvalue="JUnit.C08_BestBuyAssertions.urlTest" />
+        <item itemvalue="JUnit.C08_BestBuyAssertions" />
+        <item itemvalue="JUnit.C07_Assertions.test04" />
+        <item itemvalue="JUnit.C07_Assertions.test03" />
       </list>
     </recent_temporary>
   </component>

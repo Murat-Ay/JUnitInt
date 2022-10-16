@@ -1,4 +1,4 @@
-package ders_06_junit;
+package ders06_junit;
 import org.junit.*;
 
 public class C02_Notasyonlar {

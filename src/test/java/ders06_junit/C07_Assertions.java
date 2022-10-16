@@ -1,4 +1,4 @@
-package ders_06_junit;
+package ders06_junit;
 
 import org.junit.Assert;
 import org.junit.Test;

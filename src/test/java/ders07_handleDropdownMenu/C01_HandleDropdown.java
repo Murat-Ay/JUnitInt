@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import java.time.Duration;
 
-public class C01_HandleDropdownMenu {
+public class C01_HandleDropdown {
     WebDriver driver;
     @Before
     public void setup(){

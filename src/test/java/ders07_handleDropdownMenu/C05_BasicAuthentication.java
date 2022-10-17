@@ -1,4 +1,5 @@
 package ders07_handleDropdownMenu;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Assert;
@@ -9,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
+
 public class C05_BasicAuthentication {
     WebDriver driver;
     @Before
@@ -24,11 +26,9 @@ public class C05_BasicAuthentication {
         //2- https://the-internet.herokuapp.com/basic_auth sayfasina gidin
         // driver.get("https://the-internet.herokuapp.com/basic_auth");
         //3- asagidaki yontem ve test datalarini kullanarak authentication’i yapin
-        //
         //  Html komutu : https://username:password@URL
         //  Username     : admin
-        //  password      : admin
-        //
+        //  password     : admin
         driver.get("https://admin:admin@the-internet.herokuapp.com/basic_auth");
         //4- Basarili sekilde sayfaya girildigini dogrulayin
         //   Congratulations icerdigini test edin

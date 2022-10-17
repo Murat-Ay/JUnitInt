@@ -39,6 +39,7 @@ public class C06_RadioButtonTest {
         //“radio buttons” elementlerini locate edin
         WebElement cinsiyetRadioButtonu = driver.findElement(By.xpath("(//input[@type='radio'])[2]"));
         // size uygun olan cinsiyet button'unun secili oldugunu test edin
+
         if (cinsiyetRadioButtonu.isSelected()){
             System.out.println("Cinsiyet butonu secili, test PASSED");
         } else {

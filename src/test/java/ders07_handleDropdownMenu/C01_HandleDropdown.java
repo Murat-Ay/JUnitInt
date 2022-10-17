@@ -1,5 +1,4 @@
 package ders07_handleDropdownMenu;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Assert;
@@ -31,7 +30,6 @@ public class C01_HandleDropdown {
          - value
          - visibletext
          ile istedigimiz option'i secebiliriz.     */
-
     @Test
     public void dropdownTest(){
         // amazona gidin

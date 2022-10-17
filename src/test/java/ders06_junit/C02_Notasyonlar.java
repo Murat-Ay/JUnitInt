@@ -1,6 +1,5 @@
 package ders06_junit;
 import org.junit.*;
-
 public class C02_Notasyonlar {
     @BeforeClass
     public static void setupClass(){

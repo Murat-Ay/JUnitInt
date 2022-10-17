@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f55e01de-707b-48f6-9da2-7150c84caf0c" name="Changes" comment="" />
+    <list default="true" id="f55e01de-707b-48f6-9da2-7150c84caf0c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +43,22 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C05_BasicAuthentication.basicAuthenticationTesti">
+  <component name="RunManager" selected="JUnit.C02_Notasyonlar">
+    <configuration name="C02_Notasyonlar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitInt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ders06_junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ders06_junit" />
+      <option name="MAIN_CLASS_NAME" value="ders06_junit.C02_Notasyonlar" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C03_HandleDDM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitInt" />
       <extension name="coverage">
@@ -69,21 +86,6 @@
       <option name="MAIN_CLASS_NAME" value="ders07_handleDropdownMenu.C05_BasicAuthentication" />
       <option name="METHOD_NAME" value="basicAuthenticationTesti" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C08_BestBuyAssertions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnitInt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ders06_junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ders_06_junit" />
-      <option name="MAIN_CLASS_NAME" value="ders06_junit.C08_BestBuyAssertions" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C02_Notasyonlar" />
         <item itemvalue="JUnit.C05_BasicAuthentication.basicAuthenticationTesti" />
         <item itemvalue="JUnit.C03_HandleDDM" />
         <item itemvalue="JUnit.C09_YoutubeTest" />
         <item itemvalue="JUnit.C08_BestBuyAssertions.urlTest" />
-        <item itemvalue="JUnit.C08_BestBuyAssertions" />
       </list>
     </recent_temporary>
   </component>

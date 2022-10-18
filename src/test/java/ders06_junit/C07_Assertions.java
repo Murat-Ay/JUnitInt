@@ -21,8 +21,8 @@ public class C07_Assertions {
         /*  Assert class'inda cok kullanacagimiz 4 hazir method bulunur
         Assert.assertTrue
         Assert.assertFalse
-        Assert.assertEquals
-        Assert.assertNotEquals         */
+        Assert.assertEquals==esit
+        Assert.assertNotEquals==esit degil        */
         // sayi1'in sayi2'den kucuk oldugunu test edin
         Assert.assertTrue(sayi1<sayi2);
         // sayi1'in sayi2'den buyuk olmadigini test edin

@@ -1,10 +1,11 @@
-package Paractice;
+package paractice;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
@@ -30,20 +31,22 @@ public class FilmSuche {
     @Test
     public void test01() throws InterruptedException {
         driver.findElement( By.xpath( "//div[text()='Tümünü kabul et']" ) ).click();
-        driver.findElement( By.xpath( "//input[@name='q']" ) ).sendKeys( "Redkit" + Keys.ENTER );
-        Thread.sleep( 3333 );
+        WebElement searchBox=driver.findElement( By.xpath( "//input[@name='q']" ) );
+        searchBox.sendKeys( "Redkit" + Keys.ENTER );
             }
     @Test
     public void test02() throws InterruptedException {
         driver.findElement( By.xpath( "//div[text()='Tümünü kabul et']" ) ).click();
-        driver.findElement( By.xpath( "//input[@name='q']" ) ).sendKeys( "Brave Heart" + Keys.ENTER );
-        Thread.sleep( 2222 );
+        WebElement searchBox=driver.findElement( By.xpath( "//input[@name='q']" ) );
+        searchBox.sendKeys( "Brave Heart" + Keys.ENTER );
+
     }
     @Test
     public void test03() throws InterruptedException {
         driver.findElement( By.xpath( "//div[text()='Tümünü kabul et']" ) ).click();
-        driver.findElement( By.xpath( "//input[@name='q']" ) ).sendKeys( "Dokunulmazlar" + Keys.ENTER );
-        Thread.sleep( 2111 );
+        WebElement searchBox=driver.findElement( By.xpath( "//input[@name='q']" ) );
+        searchBox.sendKeys( "Dokunulmazlar" + Keys.ENTER );
+
 
     }
     @Before

@@ -22,14 +22,14 @@ sepetime git e tiklayiniz
 consol da "Sipariş Özeti" webelementinin text ini yazidiriniz
 Alisverisi tamamlayiniz
 son alarak da "Teknosa'ya hoş geldiniz"  webelementinin text ini yazidiriniz
-driver i kapatiniz   */
+driver i kapatiniz*/
     static WebDriver driver;
     @BeforeClass
     public static void setUp(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait( Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait( Duration.ofSeconds(27));
     }
     @AfterClass
     public static void tearDown(){
@@ -43,7 +43,6 @@ driver i kapatiniz   */
     public void test01(){
         driver.findElement( By.xpath("(//button[@class='search-button js_search_button sbx-fake btn-search'])[1]"))
                 .sendKeys("oppo"+ Keys.ENTER);
-
 
         System.out.println("Sonuc Sayisi : " + driver.findElement(By.xpath("//div[@class='plp-info']")).getText());
         driver.findElement(By.xpath("(//a[@class='prd-link'])[1]")).click();

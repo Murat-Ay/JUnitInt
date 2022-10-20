@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class TestTeknosa {
+public class TestTeknosaH {
     /* https://www.teknosa.com/ adresine gidiniz
 arama cubuguna oppo yazip enter diyiniz
 sonuc sayisini yazdiriniz
@@ -29,7 +29,7 @@ driver i kapatiniz*/
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait( Duration.ofSeconds(27));
+        driver.manage().timeouts().implicitlyWait( Duration.ofSeconds(12));
     }
     @AfterClass
     public static void tearDown(){

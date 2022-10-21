@@ -43,9 +43,11 @@ public class C03_Hausaufgabe {
         driver.findElement(By.xpath("//input[@value='Sign in']")).click();
         driver.navigate().back();
         Thread.sleep(3000);
+
         driver.findElement(By.xpath("//a[text()='More Services']")).click();
         driver.findElement(By.id("pay_bills_link")).click();
         Thread.sleep( 2000 );
+
         driver.findElement(By.xpath("//a[text()='Purchase Foreign Currency']")).click();
         WebElement DDM=driver.findElement(By.id("pc_currency"));
         Select select=new Select(DDM);

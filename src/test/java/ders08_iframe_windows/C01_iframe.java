@@ -49,6 +49,7 @@ public class C01_iframe {
         WebElement yaziAlaniElementi= driver.findElement(By.xpath("//body[@id='tinymce']"));
         yaziAlaniElementi.clear();
         yaziAlaniElementi.sendKeys("Merhaba Dunya!");
+
         //      ○ TextBox’in altinda bulunan “Elemental Selenium”
         //      linkini textinin gorunur oldugunu dogrulayin ve  konsolda yazdirin.
         /*  Bir iframe'in icerisine girdikten sonra

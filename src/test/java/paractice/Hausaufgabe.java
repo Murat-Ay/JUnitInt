@@ -9,10 +9,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.sql.Driver;
 import java.time.Duration;
-
 public class Hausaufgabe {
 
 // 1. Amazon.com'a gidelim.
@@ -21,7 +19,6 @@ public class Hausaufgabe {
 // 3. Arama kutusuna Les Miserables yazalım ve arama yapalim.
 // 4. Sonuc sayisini ekrana yazdiralim.
 // 5. Sonucların Les Miserables i icerdigini assert edelim
-
     static WebDriver driver;
     @BeforeClass
     public void setUp(){
@@ -29,12 +26,12 @@ public class Hausaufgabe {
         driver=new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait( Duration.ofSeconds( 15 ) );
-
     }
     @Test
     public void test01() {
-        driver.get( "https//:amazon.com" );
-        WebElement allButon= driver.findElement( By.xpath( "//i[@class='hm-icon nav-sprite']" ));
+      driver.get( "https//:amazon.com" );
+      WebElement allButon= driver.findElement( By.xpath( "//i[@class='hm-icon nav-sprite']" ));
+      WebElement books= driver.findElement(By.xpath( "//ul[@class='hmenu hmenu-visible hmenu-translateX']" ));
     }
             @AfterClass
     public static void tearDown(){

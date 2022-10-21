@@ -35,7 +35,7 @@ public class C02_HandleDDM {
             System.out.println(eachWebElement.getText());
         }
         // arama kutusunun solundaki DDM'deki option sayisinin 27 oldugunu test edin
-        Assert.assertEquals(27,optionListesi.size());
+        Assert.assertEquals(28,optionListesi.size());
     }
     @After
     public void teardown(){

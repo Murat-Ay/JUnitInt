@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f55e01de-707b-48f6-9da2-7150c84caf0c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ders07_handleDropdownMenu/C03_Hausaufgabe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ders07_handleDropdownMenu/C03_Hausaufgabe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ders07_handleDropdownMenu/C01_HandleDropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ders07_handleDropdownMenu/C01_HandleDropdown.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C01_HandleDropdown.dropdownTest">
+  <component name="RunManager" selected="JUnit.C02_HandleDDM">
     <configuration name="C01_HandleDropdown.dropdownTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitInt" />
       <extension name="coverage">
@@ -57,6 +57,21 @@
       <option name="MAIN_CLASS_NAME" value="ders07_handleDropdownMenu.C01_HandleDropdown" />
       <option name="METHOD_NAME" value="dropdownTest" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_HandleDDM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitInt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ders07_handleDropdownMenu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ders07_handleDropdownMenu" />
+      <option name="MAIN_CLASS_NAME" value="ders07_handleDropdownMenu.C02_HandleDDM" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,43 +107,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_handleWindows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_CheckBoxTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitInt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ders08_iframe_windows.*" />
+          <option name="PATTERN" value="ders06_junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ders08_iframe_windows" />
-      <option name="MAIN_CLASS_NAME" value="ders08_iframe_windows.C03_handleWindows" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_TestBaseIlkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnitInt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ders08_iframe_windows.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ders08_iframe_windows" />
-      <option name="MAIN_CLASS_NAME" value="ders08_iframe_windows.C04_TestBaseIlkTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="ders06_junit" />
+      <option name="MAIN_CLASS_NAME" value="ders06_junit.C04_CheckBoxTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C02_HandleDDM" />
+        <item itemvalue="JUnit.C04_CheckBoxTest.test01" />
         <item itemvalue="JUnit.C01_HandleDropdown.dropdownTest" />
         <item itemvalue="JUnit.C03_Hausaufgabe.test1" />
         <item itemvalue="JUnit.C03_Hausaufgabe" />
-        <item itemvalue="JUnit.C04_TestBaseIlkTest" />
-        <item itemvalue="JUnit.C03_handleWindows" />
       </list>
     </recent_temporary>
   </component>

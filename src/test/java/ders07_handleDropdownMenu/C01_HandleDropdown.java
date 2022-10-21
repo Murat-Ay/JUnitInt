@@ -41,7 +41,7 @@ public class C01_HandleDropdown {
         // arama cubuguna Java yazip aratin
         WebElement aramaKutusu= driver.findElement(By.id("twotabsearchtextbox"));
         aramaKutusu.sendKeys("Java" + Keys.ENTER);
-        // bulunan sonuc sayisinin 1000'den fazla oldugunu test edin
+        // bulunan sonuc sayisinin 1000'den az oldugunu test edin
         WebElement aramaSonucElementi= driver.findElement(By.xpath("//div[@class='a-section a-spacing-small a-spacing-top-small']"));
         String aramaSonucStr=aramaSonucElementi.getText();
         // System.out.println(aramaSonucStr); // 1-24 of 127 results for "Java"

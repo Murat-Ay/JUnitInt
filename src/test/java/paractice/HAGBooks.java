@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class H1 {
+public class HAGBooks {
     WebDriver driver;
 // 1. Amazon.com'a gidelim.
 // 2. DropDown üzerinde Books secelim.(All yazan yerde)

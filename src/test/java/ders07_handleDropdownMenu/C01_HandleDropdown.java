@@ -47,13 +47,12 @@ public class C01_HandleDropdown {
         // System.out.println(aramaSonucStr); // 1-24 of 127 results for "Java"
         int indexOfOf=aramaSonucStr.indexOf("of");
         int indexOfResults=aramaSonucStr.indexOf("results");
-        int aramaSonucSayisiInt= Integer
-                .parseInt(aramaSonucStr
-                        .substring(indexOfOf+3,indexOfResults-1));
-        Assert.assertTrue(aramaSonucSayisiInt>1000);
+        int aramaSonucSayisiInt= Integer.parseInt(aramaSonucStr.substring(indexOfOf+3,indexOfResults-1));
+        Assert.assertFalse(aramaSonucSayisiInt>1000);
     }
     @After
     public void teardown(){
+
         driver.close();
     }
 }

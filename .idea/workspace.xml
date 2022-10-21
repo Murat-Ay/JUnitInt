@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f55e01de-707b-48f6-9da2-7150c84caf0c" name="Changes" comment="" />
+    <list default="true" id="f55e01de-707b-48f6-9da2-7150c84caf0c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ders07_handleDropdownMenu/C03_Hausaufgabe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ders07_handleDropdownMenu/C03_Hausaufgabe.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,33 +44,19 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C03_Hausaufgabe">
-    <configuration name="C01_iframe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C01_HandleDropdown.dropdownTest">
+    <configuration name="C01_HandleDropdown.dropdownTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitInt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ders08_iframe_windows.*" />
+          <option name="PATTERN" value="ders07_handleDropdownMenu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ders08_iframe_windows" />
-      <option name="MAIN_CLASS_NAME" value="ders08_iframe_windows.C01_iframe" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_handleWindows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnitInt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ders08_iframe_windows.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ders08_iframe_windows" />
-      <option name="MAIN_CLASS_NAME" value="ders08_iframe_windows.C02_handleWindows" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="ders07_handleDropdownMenu" />
+      <option name="MAIN_CLASS_NAME" value="ders07_handleDropdownMenu.C01_HandleDropdown" />
+      <option name="METHOD_NAME" value="dropdownTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,6 +72,22 @@
       <option name="PACKAGE_NAME" value="ders07_handleDropdownMenu" />
       <option name="MAIN_CLASS_NAME" value="ders07_handleDropdownMenu.C03_Hausaufgabe" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_Hausaufgabe.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitInt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ders07_handleDropdownMenu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ders07_handleDropdownMenu" />
+      <option name="MAIN_CLASS_NAME" value="ders07_handleDropdownMenu.C03_Hausaufgabe" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C01_HandleDropdown.dropdownTest" />
+        <item itemvalue="JUnit.C03_Hausaufgabe.test1" />
         <item itemvalue="JUnit.C03_Hausaufgabe" />
         <item itemvalue="JUnit.C04_TestBaseIlkTest" />
         <item itemvalue="JUnit.C03_handleWindows" />
-        <item itemvalue="JUnit.C02_handleWindows" />
-        <item itemvalue="JUnit.C01_iframe" />
       </list>
     </recent_temporary>
   </component>

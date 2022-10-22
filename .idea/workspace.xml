@@ -43,7 +43,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C02_MouseActions">
+  <component name="RunManager" selected="JUnit.C03_DrugAndDrop">
     <configuration name="C01_MouseActions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitInt" />
       <extension name="coverage">
@@ -69,6 +69,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="ders09_actionsClass" />
       <option name="MAIN_CLASS_NAME" value="ders09_actionsClass.C02_MouseActions" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_DrugAndDrop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitInt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ders09_actionsClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ders09_actionsClass" />
+      <option name="MAIN_CLASS_NAME" value="ders09_actionsClass.C03_DrugAndDrop" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,29 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hausaufgabe.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnitInt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="paractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="paractice" />
-      <option name="MAIN_CLASS_NAME" value="paractice.Hausaufgabe" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C03_DrugAndDrop" />
         <item itemvalue="JUnit.C02_MouseActions" />
         <item itemvalue="JUnit.C01_MouseActions" />
         <item itemvalue="JUnit.HAGiframe" />
         <item itemvalue="JUnit.HAGBooks" />
-        <item itemvalue="JUnit.Hausaufgabe.test01" />
       </list>
     </recent_temporary>
   </component>

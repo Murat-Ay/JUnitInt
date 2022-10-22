@@ -16,8 +16,7 @@ public class C02_MouseActions extends TestBase {
         Actions actions= new Actions(driver);
         WebElement cizgiliAlanElementi= driver.findElement(By.id("hot-spot"));
         actions.contextClick(cizgiliAlanElementi).perform();
-        //4- Alert’te cikan yazinin “You selected a context menu” oldugunu
-        //    test edelim.
+        //4- Alert’te cikan yazinin “You selected a context menu” oldugunu test edelim.
         String expectedAlertYazisi="You selected a context menu";
         String actualAlertYazisi= driver.switchTo()
                 .alert()
@@ -45,5 +44,6 @@ public class C02_MouseActions extends TestBase {
         String actualTagYazisi= h1TagElementi.getText();
         Assert.assertEquals(expectedTagYazisi,actualTagYazisi);
         Thread.sleep(5000);
+        driver.quit();
     }
 }

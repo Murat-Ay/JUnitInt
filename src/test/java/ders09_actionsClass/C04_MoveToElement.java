@@ -12,7 +12,7 @@ public class C04_MoveToElement extends TestBase {
         //1- https://www.amazon.com/ adresine gidelim
         driver.get("https://www.amazon.com/");
         //2- Sag ust bolumde bulunan “Account & Lists”
-        //    menusunun acilmasi icin mouse’u bu menunun ustune getirelim
+        //menusunun acilmasi icin mouse’u bu menunun ustune getirelim
         WebElement accountAndListElementi= driver.findElement(By.xpath("//*[text()='Account & Lists']"));
         Actions actions= new Actions(driver);
         actions.moveToElement(accountAndListElementi).perform();

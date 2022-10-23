@@ -9,8 +9,8 @@ public class C01_FileExist {
     @Test
     public void test01(){
         System.out.println(System.getProperty("user.dir"));
-        String dosyaYolu = System.getProperty( "user.home" ) + "/Win/Desktop/FileTesti/deneme.txt";
-
+        System.out.println(System.getProperty("user.home"));
+        String dosyaYolu = System.getProperty( "user.home" ) + "/Desktop/FileTesti/deneme.txt";
         System.out.println( "dosyaYolu" );
         System.out.println(Files.exists(Paths.get(dosyaYolu)));
     }}

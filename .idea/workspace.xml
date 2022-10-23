@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55e01de-707b-48f6-9da2-7150c84caf0c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ders10_file_waits/C04_Senkronizasyon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ders10_file_waits/C05_SenkronizasyonWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ders10_file_waits/C05_SenkronizasyonWait.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,22 +44,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C01_FileExist">
-    <configuration name="C01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnitInt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ders10_file_waits.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ders10_file_waits" />
-      <option name="MAIN_CLASS_NAME" value="ders10_file_waits.C01" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.C06_ExplicitlyWait">
     <configuration name="C01_FileExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitInt" />
       <extension name="coverage">
@@ -90,31 +76,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HAGactions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_handleWindows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitInt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paractice.*" />
+          <option name="PATTERN" value="ders08_iframe_windows.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="paractice" />
-      <option name="MAIN_CLASS_NAME" value="paractice.HAGactions" />
+      <option name="PACKAGE_NAME" value="ders08_iframe_windows" />
+      <option name="MAIN_CLASS_NAME" value="ders08_iframe_windows.C02_handleWindows" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HAGarrow_down" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_handleWindows.windowtesti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitInt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paractice.*" />
+          <option name="PATTERN" value="ders08_iframe_windows.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="paractice" />
-      <option name="MAIN_CLASS_NAME" value="paractice.HAGarrow_down" />
+      <option name="PACKAGE_NAME" value="ders08_iframe_windows" />
+      <option name="MAIN_CLASS_NAME" value="ders08_iframe_windows.C02_handleWindows" />
+      <option name="METHOD_NAME" value="windowtesti" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C06_ExplicitlyWait" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitInt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ders10_file_waits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ders10_file_waits" />
+      <option name="MAIN_CLASS_NAME" value="ders10_file_waits.C06_ExplicitlyWait" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C06_ExplicitlyWait" />
+        <item itemvalue="JUnit.C02_handleWindows" />
+        <item itemvalue="JUnit.C02_handleWindows.windowtesti" />
         <item itemvalue="JUnit.C01_FileExist" />
         <item itemvalue="JUnit.C01_FileExist.test01" />
-        <item itemvalue="JUnit.C01" />
-        <item itemvalue="JUnit.HAGarrow_down" />
-        <item itemvalue="JUnit.HAGactions" />
       </list>
     </recent_temporary>
   </component>

@@ -13,7 +13,6 @@ import java.time.Duration;
 public class C05_SenkronizasyonWait {
     //1. Bir class olusturun : WaitTest
     //2. Iki tane metod olusturun : implicitWait() , explicitWait()
-    //
     //   Iki metod icin de asagidaki adimlari test edin.
     //3. https://the-internet.herokuapp.com/dynamic_controls adresine gidin.
     //4. Remove butonuna basin.

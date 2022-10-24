@@ -22,11 +22,14 @@ public class C02_handleWindowsX {
     public void windowtesti(){
         // https://the-internet.herokuapp.com/iframe adresine gidin
         driver.get("https://the-internet.herokuapp.com/iframe");
+
         // elemental selenium linkini tiklayin
         driver.findElement(By.linkText("Elemental Selenium")).click();
+
         // Acilan sayfadaki en bastaki yazinin gorunur oldugunu
         WebElement baslikElementi= driver.findElement(By.tagName("h1"));
         Assert.assertTrue(baslikElementi.isDisplayed());
+
         // ve yazinin Elemental Selenium oldugunu test edin
         String expectedYazi="Elemental Selenium";
         String actualYazi= baslikElementi.getText();

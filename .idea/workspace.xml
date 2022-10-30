@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f55e01de-707b-48f6-9da2-7150c84caf0c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ders11_cookies_webTables/C04_WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ders11_cookies_webTables/C04_WebTables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ders11_cookies_webTables/C05_WebTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ders11_cookies_webTables/C05_WebTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ders12_excel/C02_readExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ders12_excel/C02_readExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ders12_excel/C03_readExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ders12_excel/C03_readExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ders12_excel/C04_readExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ders12_excel/C04_readExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ders12_excel/C05_FizikiKullanilanSatirS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ders12_excel/C05_FizikiKullanilanSatirS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ders12_excel/C06_exceliMapYapma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ders12_excel/C06_exceliMapYapma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ders13_excel_screenshot_jsExecutor/C01_WriteExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ders13_excel_screenshot_jsExecutor/C01_WriteExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ders13_excel_screenshot_jsExecutor/C02_ScreenShotTumSayfa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ders13_excel_screenshot_jsExecutor/C02_ScreenShotTumSayfa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ders13_excel_screenshot_jsExecutor/C03_Screenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ders13_excel_screenshot_jsExecutor/C03_Screenshot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ders13_excel_screenshot_jsExecutor/C04_ScreenshotWebelement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ders13_excel_screenshot_jsExecutor/C04_ScreenshotWebelement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ders13_excel_screenshot_jsExecutor/C05_Screenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ders13_excel_screenshot_jsExecutor/C05_Screenshot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ders13_excel_screenshot_jsExecutor/C06_JSExecuter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ders13_excel_screenshot_jsExecutor/C06_JSExecuter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/paractice/Q5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/paractice/Q5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
-    </list>
+    <list default="true" id="f55e01de-707b-48f6-9da2-7150c84caf0c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

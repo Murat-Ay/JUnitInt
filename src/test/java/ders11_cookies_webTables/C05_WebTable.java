@@ -1,10 +1,10 @@
-package ders12_Excel;
+package ders11_cookies_webTables;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import utilities.TestBase;
 import java.util.List;
-public class C01_WebTable extends TestBase {
+public class C05_WebTable extends TestBase {
     @Test
     public void webtableTesti(){
         //  1. “https://demoqa.com/webtables” sayfasina gidin

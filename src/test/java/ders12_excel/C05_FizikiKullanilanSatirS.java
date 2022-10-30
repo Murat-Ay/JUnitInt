@@ -1,4 +1,4 @@
-package ders12_Excel;
+package ders12_excel;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.junit.Test;

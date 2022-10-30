@@ -16,7 +16,7 @@ public class C04_WebTables extends TestBase {
         // sutun sayisinin 14 oldugunu test edin
         List<WebElement> ilkSatirDataListesi = driver.findElements(By.xpath("//table//tr[1]/td"));
         Assert.assertTrue(ilkSatirDataListesi.size()==14);
-        // 3. sutunu yazdirin
+        // 3.sutunu yazdirin
         List<WebElement> ucuncuSutunDataListesi = driver.findElements(By.xpath("//table//tr/td[3]"));
         for (WebElement each: ucuncuSutunDataListesi
         ) {

@@ -13,6 +13,7 @@ public class C04_readExcel {
         // ulkeler excelinde turkce ulke isimleri Senegal iceriyor mu test edin
         // toplam 190 ulke oldugunu test edin
         // en uzun ulke isminin Mikronezya Federal Devletleri oldugunu test edin
+
         String dosyaYolu=System.getProperty("user.home")+ "/Desktop/ulkeler.xlsx";
         FileInputStream fis=new FileInputStream(dosyaYolu);
         Workbook workbook= WorkbookFactory.create(fis);

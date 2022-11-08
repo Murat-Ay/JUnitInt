@@ -23,6 +23,7 @@ public class C04_readExcel {
         for (int i = 0; i < sonSatirIndexi; i++) {
             ulkelerListesi.add(workbook.getSheet("sayfa1").getRow(i).getCell(2).toString());
         }
+
         ulkelerListesi.remove(0);
         // ulkeler excelinde turkce ulke isimleri Senegal iceriyor mu test edin
         Assert.assertTrue(ulkelerListesi.contains("Senegal"));

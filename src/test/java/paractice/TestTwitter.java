@@ -34,5 +34,4 @@ public class TestTwitter extends TestBase {
              .perform();
      driver.findElement( By.xpath( "//*[text()='İleri']" ) ).click();
      }
-
 }

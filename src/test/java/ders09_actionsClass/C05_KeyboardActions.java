@@ -8,17 +8,16 @@ import utilities.TestBase;
 public class C05_KeyboardActions extends TestBase {
     @Test
     public void test01(){
-        /*
-          Klavye'de cok fazla tus olsa da her bir tusla ilgili temel iki islem var
+        /*   Klavye'de cok fazla tus olsa da her bir tusla ilgili temel iki islem var
           1- tek seferlik basmak
             sendKeys(keys.ENTER)
           2- uzun sureli basmak ve isim bitince tustan elimizi kaldirmak
              - basmak icin keyDown()
              - basili tusu birakmak icin keyUp()         */
+
         // amazon anasayfaya gidin
         driver.get("https://www.amazon.com");
-        /*
-        // arama kutusuna nutella yazin
+        /* arama kutusuna nutella yazin
         WebElement aramaKutusu= driver.findElement(By.id("twotabsearchtextbox"));
         aramaKutusu.sendKeys("nutella");
         // aramayi yapmak icin ENTER tusuna basin

@@ -44,7 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TestTwitter">
+  <component name="RunManager" selected="JUnit.C01_HandleDropdown.dropdownTest">
     <configuration name="A1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitInt" />
       <extension name="coverage">
@@ -76,17 +76,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C06_FacebookKayit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_HandleDropdown.dropdownTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitInt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ders09_actionsClass.*" />
+          <option name="PATTERN" value="ders07_handleDropdownMenu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ders09_actionsClass" />
-      <option name="MAIN_CLASS_NAME" value="ders09_actionsClass.C06_FacebookKayit" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="ders07_handleDropdownMenu" />
+      <option name="MAIN_CLASS_NAME" value="ders07_handleDropdownMenu.C01_HandleDropdown" />
+      <option name="METHOD_NAME" value="dropdownTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C01_HandleDropdown.dropdownTest" />
         <item itemvalue="JUnit.TestTwitter" />
         <item itemvalue="JUnit.TestTwitter.testTwitter" />
         <item itemvalue="JUnit.A1" />
         <item itemvalue="JUnit.A1.testA" />
-        <item itemvalue="JUnit.C06_FacebookKayit" />
       </list>
     </recent_temporary>
   </component>

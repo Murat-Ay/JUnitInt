@@ -20,7 +20,9 @@ public class C01_HandleDropdown {
         driver=new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.manage().window().maximize();
+
     }
+
     /*    Dropdown menuler ozel web elementleridir ve select tag'i ile olusturulurlar
       1- dropdown menuyu locate edelim
       2- dropdown menulerden option secebilmek icin Select class'indan obje olusturmaliyiz

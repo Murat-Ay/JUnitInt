@@ -41,6 +41,7 @@ public class C01_HandleDropdown {
         Select select= new Select(dropdownWebelement);
         select.selectByVisibleText("Electronics");
         // arama cubuguna Java yazip aratin
+
         WebElement aramaKutusu= driver.findElement(By.id("twotabsearchtextbox"));
         aramaKutusu.sendKeys("Java" + Keys.ENTER);
         // bulunan sonuc sayisinin 1000'den az oldugunu test edin
